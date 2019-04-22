@@ -1,0 +1,73 @@
+/* ==UserStyle==
+@name         Dark style for Sanakirja.org
+@namespace    Permik
+@version      1.0.0
+@license      CC-BY-SA-4.0
+@author       Permik
+@updateURL    https://raw.githubusercontent.com/Permik/sanakirja-org-dark/master/sanakirja-org-dark.user.css
+@homepageURL  https://github.com/Permik/sanakirja-org-dark
+==/UserStyle== */
+html, body, .hs-links {
+        background: #101010 !important;
+        color: #c5c5c5;
+    }
+
+.below_header{
+    background: #1d1d1d !important;
+}
+.hs-links li a {
+    color: #c5c5c5 !important;
+}
+
+.hs-links li a:hover {
+    text-decoration: underline !important;
+}
+
+input.fancy_large{
+    background: #222;
+    color: #C5C5C5 !important;
+    border: 1px solid #333 !important;
+    border-radius: 24px;
+    padding-bottom: 10px !important;
+}
+
+.dialog-content{
+    background: #1d1d1d !important;
+}
+
+.suggestions{
+    background: #222 !important;
+    box-shadow: none !important;
+}
+
+.suggestions ul a {
+    color: #c5c5c5 !important;
+}
+.suggestions ul a:hover {
+    background: #2e2e2e !important;
+}
+#clear_input span {
+    line-height: 44px;
+}
+a {
+    color: #9BAED2 !important;
+}
+a:hover {
+    text-decoration: underline !important;
+}
+#swap_languages img{
+  display: block !important;
+  box-sizing: border-box !important;
+  background: url('data:image/svg+xml;utf8,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"></path></svg>') no-repeat center/60%, radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 45%,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(255, 255, 255, 0) 100%
+    ) !important;
+  width: 24px;
+  height: 24px;
+  padding-left: 24px;
+  border-radius: 50%;
+    
+    
+}
