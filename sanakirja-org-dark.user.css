@@ -1,18 +1,22 @@
 /* ==UserStyle==
 @name         Sanakirja Dark
 @namespace    Permik
-@version      1.0.2
+@version      1.0.3
 @license      CC-BY-SA-4.0
 @author       Permik
 @updateURL    https://raw.githubusercontent.com/Permik/sanakirja-org-dark/master/sanakirja-org-dark.user.css
 @homepageURL  https://github.com/Permik/sanakirja-org-dark
 ==/UserStyle== */
-@-moz-document domain("sanakirja.org") {
+@-moz-document domain("sanakirja.org"), domain("webxicon.org") {
 html, body, .hs-links {
         background: #101010 !important;
         color: #c5c5c5;
     }
 
+h1,h2,h3{
+    color: #c5c5c5 !important;
+}
+        
 .below_header{
     background: #1d1d1d !important;
 }
