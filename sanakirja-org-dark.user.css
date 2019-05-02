@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Sanakirja Dark
 @namespace    Permik
-@version      1.0.10
+@version      1.0.11
 @license      CC-BY-SA-4.0
 @author       Permik
 @updateURL    https://raw.githubusercontent.com/Permik/sanakirja-org-dark/master/sanakirja-org-dark.user.css
@@ -21,6 +21,7 @@ div.content{
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 body .dialog.shortcuts{
     left: initial;
@@ -161,6 +162,10 @@ body #wrapper .content.search_results #right_banner{
     width: initial;
     min-height: initial;
     padding-left: 0px;
+}
+body #wrapper .push{
+    height: initial;
+    clear: initial;
 }
 body #footer{
     padding: 15px;
