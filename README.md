@@ -1,5 +1,5 @@
 # sanakirja-org-dark
-Dark sanakirja.org style
+Dark sanakirja.org Userstyle
 
 Also supports Webxicon.org!
 
