@@ -3,6 +3,8 @@ Dark sanakirja.org Userstyle
 
 Also supports Webxicon.org!
 
+**Doesn't support the mobile site: m.sanakirja.org**
+
 ## How to use:
 
 1. Install stylus https://github.com/openstyles/stylus
