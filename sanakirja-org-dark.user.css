@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Sanakirja Dark
 @namespace    Permik
-@version      1.0.11
+@version      1.0.12
 @license      CC-BY-SA-4.0
 @author       Permik
 @updateURL    https://raw.githubusercontent.com/Permik/sanakirja-org-dark/master/sanakirja-org-dark.user.css
@@ -22,6 +22,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+body .sccm-container{
+    color: inherit;
+}
+body .sccm-content{
+    background: #101010;
+    background-image: none;
 }
 body .dialog.shortcuts{
     left: initial;
