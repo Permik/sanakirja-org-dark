@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Sanakirja Dark
 @namespace    Permik
-@version      1.0.12
+@version      1.0.13
 @license      CC-BY-SA-4.0
 @author       Permik
 @updateURL    https://raw.githubusercontent.com/Permik/sanakirja-org-dark/master/sanakirja-org-dark.user.css
@@ -39,7 +39,7 @@ body #wrapper{
     margin: initial;
 }
 body #wrapper .hs-links{
-    overflow: scroll;
+    overflow: auto;
     height: auto;
 }
 body #wrapper .hs-links ul{
@@ -155,7 +155,7 @@ body #wrapper .content{
 }
 body #wrapper .content.index{
     width: auto;
-    overflow-x: scroll;
+    overflow: auto;
 }
 body #wrapper .content.search_results{
     width: auto;
@@ -169,6 +169,12 @@ body #wrapper .content.search_results #right_banner{
     width: initial;
     min-height: initial;
     padding-left: 0px;
+}
+body #wrapper .content.search_results .lists .pronunciation ul li {
+    display: flex;
+}
+body #wrapper .content.search_results .lists .pronunciation ul li:last-child {
+    display: initial;
 }
 body #wrapper .push{
     height: initial;
